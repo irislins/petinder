@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    font-size: 30px;
+}
+    
+   .borda {
+        width: 70%;
+    }
+    .CADASTROANIMAL{
+        width: 30%;
+    }
+    .h1{
+        font-size: 300%;
+    }
+#conteudo{
+    width: 80%;
+    margin: 0 auto;
+}
+#informacoes{
+    display: flex;
+    justify-content: space-around;
+}
+#informacoes2{
+    display: flex;
+    justify-content: space-around;
+}
+#informacoes3{
+    display: flex;
+    justify-content: space-around;
+}

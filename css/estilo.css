@@ -37,6 +37,11 @@ input[type= submit]{
     justify-content: space-around;
 }
 
+#informacoes1{
+    display: flex;
+    justify-content: space-around;
+}
+
 #informacoes2{
     display: flex;
     justify-content: space-around;
@@ -69,3 +74,52 @@ h3{
     width: 200px;
     height: 40px;
 }
+
+.editar{
+    font-size: 80%;
+    width: 12%;
+}
+
+.container {
+    border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 70%;
+  margin-right: 20px;
+  border-radius: 40%;
+}
+
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+.time-left {
+  float: left;
+  color: #999;
+}
+

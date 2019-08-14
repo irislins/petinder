@@ -2,7 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="/css/estilo.css">
-<title>CADASTROANIMAL</title>
+<title>CADASTRO ANIMAL</title>
     </head>
     <body>
             
@@ -10,33 +10,46 @@
   <div id="conteudo">
             <h1>Cadastre seu animal</h1>
   <img class="cadanimal" src="/imagens/cachorroduda.jpg" alt="">
+
+</section>
+<section id="informacoes1">
+  <div>
+      <h2>Nome</h2>
+      <form action="/action_page.php"></form>
+      Insira o nome aqui: <br>
+      <br><input type="text" name="nome" > 
+      <br><br>
+  </form> 
+</div>
+<div>
+<h2>Idade</h2>
+<form action="/action_page.php">
+Insira a idade aproximada aqui: <br>
+<br><input type="text" name="insiraaidadeaqui" >
+</form>
+</div>
+</section>
+
    <section id="informacoes">
      <div>
   <h2>Espécie</h2>
-   <form action="/action_page.php">
-   <select name="espécie">
-   <option value="gato">Gato</option>
-   <option value="cachorro">Cachorro</option>
-</select>
-<br><br>
-
+   <form>
+      <input type="radio" name="espécie" value="gato" checked> Macho<br>
+      <input type="radio" name="espécie" value="cachorro"> Fêmea<br>
+      <br>
 </form>
 </div>
 <div>
-    <h2>Tamanho</h2>
-    <form action="/action_page.php">
-     <select name="Porte">
-       <option value="porte pequeno">Porte pequeno</option>
-       <option value="porte médio">Porte médio</option>
-       <option value="porte grande ">Porte grande</option>
-     </select>
-    <br><br>
     
+    <h2>Sexo</h2>
+          <form>
+              <input type="radio" name="genêro" value="macho" checked> Gato<br>
+              <input type="radio" name="genêro" value="fêmea"> Cachorro<br>
+              <br>
     </form>
-    
-    
   </div>
   </section>
+
    <section id="informacoes2">
      <div>
 <h2>Raças caninas</h2>
@@ -155,21 +168,25 @@
 </section>
 <section id="informacoes3">
   <div>
-<h2>Sexo</h2>
-<form>
-    <input type="radio" name="genêro" value="macho" checked> Macho<br>
-    <input type="radio" name="genêro" value="fêmea"> Fêmea<br>
-    
-  </form> 
-</div>
-<div>
-<h2>Idade</h2>
-<form action="/action_page.php">
-Insira a idade aqui: <br>
-<br><input type="text" name="insiraaidadeaqui" >
-</form>
-</div>
-</section>
+      <h2>Inserir foto</h2>
+      <form>
+          <input type="file" name="foto">
+          <br><br>
+        </form> 
+      </div>
+      <div>
+          <h2>Tamanho</h2>
+          <form action="/action_page.php">
+           <select name="Porte">
+             <option value="porte pequeno">Porte pequeno</option>
+             <option value="porte médio">Porte médio</option>
+             <option value="porte grande ">Porte grande</option>
+           </select>
+          <br><br>             
+      </form>
+      </div>
+      </section>
+      
 <h2>Informações adicionais</h2>
 <form action="/action_page.php">
 Insira informações que você considere necessárias aqui: <br>

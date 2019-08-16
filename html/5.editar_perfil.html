@@ -13,10 +13,21 @@
         
         <form>
      <br> <strong> Nome: </strong> <input class="editar" type="text" name="nome" value="Claudia"> <br>
-     <br> <strong> Tamanho: </strong> <input class="editar" type="text" name="tamanho" value="Porte pequeno"> <br>
-     <br> <strong> Espécie: </strong> <input class="editar" type="text" name="especie" value="Gato"> <br>
-     <br> <strong> Sexo: </strong> <input class="editar" type="text" name="sexo" value="Fêmea"> <br>
-     <br> <strong> Raça: </strong> <input class="editar" type="text" name="raca" value="Não definida"> <br>
+     <br> <strong> Tamanho: </strong> 
+        <form action="/action_page.php">
+         <select name="Porte">
+           <option value="porte pequeno">Porte pequeno</option>
+           <option value="porte médio">Porte médio</option>
+           <option value="porte grande ">Porte grande</option>
+         </select>
+        <br>          
+    </form>
+     <br> <strong> Espécie: </strong> <i> Gato </i> <br>
+     <br> <strong> Sexo: </strong> <i> Fêmea </i> <br>
+     <br> <strong> Raça: </strong> <i> Sem raça definida </i> <br>
+       </form>
+ </div>
+ </section>
      <br> <strong> Idade aproximada: </strong> <input class="editar" type="text" name="idade" value="2 anos"> <br> 
      <br> <strong> Informações Adicionais: </strong> <input class="editar" type="text" name="informacoesadicionais" > <br>
      <br> <input type="submit"> <button type="button"> Excluir </button>
